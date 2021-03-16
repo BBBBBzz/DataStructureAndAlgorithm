@@ -24,5 +24,5 @@ def selectionSort(nums):
 
 nums = [5,2,6,4,3,1,8,7]
 print(f"Original array: {nums}")
-insertionSort(nums)
+selectionSort(nums)
 print(f"Sorted array: {nums}")
