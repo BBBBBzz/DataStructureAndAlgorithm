@@ -1,5 +1,5 @@
 """
-中心思想：
+选择排序：
 1. 首先，找到数组中最小的元素，将其与数组中第一个元素进行交换（如果第一个元素就是最小的元素那么它就自己和自己换）
 2. 其次，在剩下的元素中找到最小的元素，将其与数组中第二个元素进行交换，以此类推
 
@@ -9,7 +9,7 @@
 """
 
 
-def insertionSort(nums):
+def selectionSort(nums):
     n = len(nums)
     if n <= 1: return nums
     for i in range(0, n):
