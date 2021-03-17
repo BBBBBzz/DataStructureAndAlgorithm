@@ -7,6 +7,10 @@
 这个称为分区（partition）操作；
 3. 递归地（recursive）把小于基准值元素的子数列和
 大于基准值元素的子数列排序。
+
+复杂度：
+1. 时间复杂度：O(nlogn) ~ O(n^2)
+2. 空间复杂度：O(logn)
 """
 
 def partition(arr, left, right):

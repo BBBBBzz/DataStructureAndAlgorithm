@@ -5,12 +5,12 @@
 
 复杂度：
 1. 时间复杂度：最坏情况下需要N^2/2，即O(N^2)
-2. 空间复杂度：最坏的情况下需要N^2/2，即O(N^2)
+2. 空间复杂度：O(1)，需要一个中间变量来保存当前值
 """
 
 def insertionSort(nums):
     n = len(nums)
-    if n < 2: return nums
+    if n < 2: return
     for i in range(1, n):
         # 在当前位置从后往前遍历
         j = i

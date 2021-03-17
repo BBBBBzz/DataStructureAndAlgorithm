@@ -5,13 +5,13 @@
 
 复杂度：
 1. 时间复杂度：最多需要进行(N^2)/2 比较, 即O(N^2)
-2. 空间复杂度：最多需要进行N次交换， 即O(N)
+2. 空间复杂度：O(1)
 """
 
 
 def selectionSort(nums):
     n = len(nums)
-    if n <= 1: return nums
+    if n <= 1: return
     for i in range(0, n):
         # 初始化当前最小值的索引
         min = i
